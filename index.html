@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>HuLoMovie</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav_header">
+                <div class="nav_logo">
+                    <a href="index.html">
+                        <img src="./img/472592.png" alt="">
+                    </a>
+                </div>
+
+                <div class="nav_detail">
+                    <div class="collection">
+                        <p>Bộ sưu tập</p>
+                    </div>
+
+                    <div class="search-box">
+                        <span>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                        <p>Tìm kiếm</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    
+
+    <div class="container-full">
+        <div class="movie-slider">
+            <div class="movie-slider_wrapper">
+                <div class="movie-slider_main">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="container main hide ">
+            <div class="filter_box">
+                <div class="category_filter">
+                    <div class="select_box">
+                        <label for="select_genre">Thể loại:</label>
+                        <select name="select_genre" id="select_genre">
+                            <option value="">--Tất cả--</option>
+                        </select>
+                        <span>
+                            <i class="fa-solid fa-caret-down"></i>
+                        </span>
+                    </div>
+                </div>
+    
+                <form action="" id="searchForm">
+                    <input type="text" id="searchText" placeholder="Tìm kiếm phim...">
+                    <button id="search">
+                        <span>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                    </button>
+                </form>
+            </div>
+
+            <div class="movies">
+                
+            </div>
+
+            <div class="pagination">
+                <ul>
+                    
+                </ul>
+            </div>
+        </div>
+
+        
+    </main>
+
+    <div class="container movie_collection hide">
+        <h4>Bộ sưu tập của bạn</h4>
+        <div class="movie_collection_box">
+
+        </div>
+        <h5>Nếu phim bạn thêm chưa cập nhật trong bộ sưu tập của bạn, hãy thử reload lại trang!</h5>
+    </div>
+    
+
+    <div class="movie_detail hide">
+            
+    </div>
+
+    <div class="footer hide">
+        <div class="footer_info">
+            <div class="footer_logo">
+                <a href="index.html">
+                    <img src="./img/472592.png" alt="">
+                </a>
+            </div>
+    
+            <div class="footer_social">
+                <a href="#">
+                    <span>
+                        <i class="fa-brands fa-github"></i>
+                    </span>
+                </a>
+                <a href="#">
+                    <span>
+                        <i class="fa-brands fa-facebook"></i>
+                    </span>
+                </a>
+                <a href="#">
+                    <span>
+                        <i class="fa-brands fa-instagram"></i>
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer_copyright">
+            © Copyright 2022 HuLoMovie. UwU
+        </div>
+    </div>
+    <!-- <button id="next">Next</button> -->
+</body>
+<script src="app.js"></script>
+</html>
