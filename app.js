@@ -395,7 +395,7 @@ $(function() {
                 "transition": "transform 1.2s cubic-bezier(0.455, 0.03, 0.515, 0.955)"
             })
             len += itemLen
-        }, 5000);
+        }, 3000);
     }
     sliderMovie()
 
